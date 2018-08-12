@@ -1,0 +1,147 @@
+body {
+font-family: roboto, sans-serif;
+background: url("../images/background-madewith.jpg") top center repeat-y #5C5C5C;
+background-size: 100%;
+color: #FFFFFF;
+font-size: 10px;
+}
+
+.content-fixed {
+margin-left: auto;
+margin-right: auto;
+max-width: 140px;
+background-color: #5C5C5C;
+text-align: center;
+margin-top: 50px;
+}
+
+a {
+color: #F3AEAE;
+}
+
+a:focus, a:hover {
+color: #E5E3E3;
+}
+
+h1 {
+font-size: 185%;
+font-weight: 600;
+}
+
+h2 {
+font-size: 120%;
+}
+
+h3 {
+font-weight: 900;
+font-size: 130%;
+background-color: #F3AEAE;
+color: #FFFFFF;
+padding: 6px;
+margin: 30px auto 10px;
+width: 80%;
+border-radius: 40px;
+}
+
+table a {
+color: #909090;
+}
+
+table a:focus, table a:hover {
+color: #F3AEAE;
+}
+
+table th {
+background-color: #E5E3E3;
+color: #5C5C5C;
+}
+
+table tr th:first-child {
+width: 75%;
+text-align: left;
+}
+
+table tr td:first-child {
+width: 75%;
+text-align: left;
+}
+
+table tr th:last-child {
+text-align: center;
+}
+
+table tr td:last-child {
+text-align: center;
+}
+
+@media(min-width: 350px) {
+h3 {
+width: 60%;
+}
+
+.content-fixed {
+max-width: 200px;
+}
+}
+
+@media(min-width: 500px) {
+body {
+font-size: 11px;
+}
+
+h3 {
+padding: 10px;
+margin: 30px auto 10px;
+width: 60%;
+}
+
+.content-fixed {
+max-width: 300px;
+}
+}
+
+@media(min-width: 768px) {
+body {
+font-size: 12px;
+}
+
+.content-fixed {
+max-width: 400px;
+}
+}
+
+@media(min-width: 1024px) {
+body {
+font-size: 18px;
+}
+
+h3 {
+padding: 10px 10px 10px 15px;
+margin: 50px auto 20px;
+width: 50%;
+}
+
+.content-fixed {
+max-width: 600px;
+}
+}
+
+@media(min-width: 1400px) {
+.content-fixed {
+max-width: 800px;
+}
+}
+
+@media(min-width: 1600px) {
+body {
+font-size: 18px;
+}
+
+h3 {
+width: 40%;
+}
+
+.content-fixed {
+max-width: 1024px;
+}
+}

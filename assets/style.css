@@ -175,7 +175,7 @@ text-shadow: 2px 2px #5B5B5B;
 .carousel-caption .btn-primary {
 border-radius: 0px;
 background-color: #5B5B5B;
-border-color: #5B5B5B;
+border-color: #E5E3E3;
 color: #FFFFFF;
 }
 
@@ -365,6 +365,30 @@ padding-bottom: 5px;
 padding: 0px;
 }
 
+@media(max-width: 600px) {
+.home-banner h1 {
+font-size: 42px;
+}
+}
+
+@media(max-width: 499px) {
+.home-banner h1 {
+font-size: 32px;
+}
+
+.carousel-caption .btn-primary {
+font-size: 12px;
+font-weight: 600;
+padding: 4px 3em;
+}
+}
+
+@media(max-width: 364px) {
+.home-banner h1 {
+font-size: 26px;
+}
+}
+
 @media(min-width: 240px) {
 h2, h3, h4 {
 font-size: 18px;
@@ -382,14 +406,6 @@ font-size: 17px;
 
 .carousel-caption h1{
 font-size: 34px;
-}
-}
-
-@media(max-width: 499px) {
-.carousel-caption .btn-primary {
-font-size: 12px;
-font-weight: 600;
-padding: 4px 3em;
 }
 }
 

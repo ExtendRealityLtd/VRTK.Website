@@ -1,0 +1,85 @@
+body {
+font-family: roboto, sans-serif;
+background-color: #5B5B5B;
+color: #FFFFFF;
+margin: 20px;
+}
+
+#banner {
+text-align: center;
+}
+
+#banner img {
+width: 80%;
+max-width: 905px;
+height: auto;
+}
+
+#content {
+text-align: center;
+}
+
+#content p.note {
+font-style: italic;
+color: #5B5B5B;
+background-color: #E5E3E3;
+margin: 10px auto;
+padding: 10px;
+width: 80%;
+max-width: 600px;
+height: auto;
+border: 1px solid #FFFFFF;
+}
+
+ul.link-list {
+list-style-type: none;
+margin: 0px auto;
+padding: 0px;
+overflow: hidden;
+width: 70%;
+text-align: center;
+}
+
+.link-list li {
+margin-top: 50px;
+display: inline-block;
+text-align: center;
+min-width: 32%;
+padding-right: 25px;
+}
+
+.link-list li h1 {
+font-size: 18px;
+font-weight: 900;
+color: #FFFFFF;
+}
+
+.link-list li i {
+font-size: 12em;
+color: #FFFFFF;
+}
+
+.btn-primary {
+font-size: 18px;
+font-weight: 600;
+border-radius: 100px;
+padding-left: 1em;
+padding-right: 1em;
+}
+
+.link-list .btn-primary {
+background-color: #F3AEAE;
+border-color: #F3AEAE;
+color: #FFFFFF;
+margin-top: 20px;
+}
+
+.link-list .btn-primary.active,
+.link-list .btn-primary.focus,
+.link-list .btn-primary:active,
+.link-list .btn-primary:focus,
+.link-list .btn-primary:hover {
+background-color: #E5E3E3;
+border-color: #5B5B5B;
+color: #5B5B5B;
+}

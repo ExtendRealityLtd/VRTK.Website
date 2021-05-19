@@ -16,14 +16,39 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link href='https://fonts.googleapis.com/css?family=Roboto:900,100,300,400,500,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/madewith.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/solid.css" integrity="sha384-wnAC7ln+XN0UKdcPvJvtqIH3jOjs9pnKnq9qX68ImXvOGz2JuFoEiCjT8jyZQX2z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css" integrity="sha384-HbmWTHay9psM8qyzEKPc8odH4DsOuzdejtnr+OFtDmOcIVnhgReQ4GZBH7uwcjf6" crossorigin="anonymous">
   </head>
   <body>
-    <div class="madewith content-fixed">
-      <h1>made with <a href="https://www.vrtk.io" title="Visit the VRTK website" target="_new">VRTK</a></h1>
+    <div class="navbar navbar-fixed-top navbar-inverse">
+      <div class="content-fixed">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="images/logo.gif" alt="VRTK Logo" title="Scroll back to the top"/></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">home</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <a class="anchor" id="home"></a>
+
+    <div class="home-banner">
+      <h1>Made <em>With</em> VRTK</h1>
       <h2>A collection of titles that have been made with VRTK.</h2>
+    </div>
+
+    <div class="main-content content-fixed">
 
       <h3>Steam</h3>
       <table class="table">
@@ -393,5 +418,36 @@
       </tbody>
       </table>
     </div>
+
+    <!-- Footer -->
+    <footer class="page-footer">
+      <div class="row content-fixed">
+        <div class="col-md-6">
+          <h5>VRTK - Virtual Reality Toolkit</h5>
+          <p>A productive toolkit for rapidly building Virtual Reality solutions by providing design patterns and pre-built assets to quickly and easily solve common problems.</p>
+        </div>
+        <div class="col-md-6 icon-block">
+          <h5>VRTK is made with love</h5>
+          <div class="icons">
+            <ul class="social">
+              <a href="https://twitter.com/VR_Toolkit" target="_new" title="Follow on Twitter"><li class="icon"><i class="fab fa-twitter"></i></li></a>
+              <a href="https://github.com/ExtendRealityLtd/VRTK" target="_new" title="Fork on GitHub"><li class="icon"><i class="fab fa-github-alt"></i></li></a>
+              <a href="https://academy.vrtk.io" target="_new" title="Learn at the VRTK Academy"><li class="icon"><i class="fas fa-graduation-cap"></i></li></a>
+              <a href="http://videos.vrtk.io" target="_new" title="Watch Tutorials on Youtube"><li class="icon"><i class="fab fa-youtube"></i></li></a>
+              <a href="https://www.patreon.com/vrtk" target="_new" title="Become a Patron on Patreon"><li class="icon"><i class="fab fa-patreon"></i></li></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+
+    <script src="assets/jquery-1.11.3.min.js"></script>
+    <script src="assets/bootstrap.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="assets/html5shiv.min.js"></script>
+    <script src="assets/respond.min.js"></script>
+    <![endif]-->
+    <script src="assets/app.js"></script>
   </body>
 </html>

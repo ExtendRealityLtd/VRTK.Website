@@ -1,0 +1,182 @@
+body.nft {
+background-color: #21181F;
+background-image: url("../images/background-nft1.jpg");
+background-size: contain;
+}
+
+.nft p {
+color: white;
+}
+
+.nft .content-link a {
+color: white;
+}
+
+.nft .home-banner {
+padding-bottom: 18px;
+}
+
+.nft .main-content {
+padding: 0px 100px;
+}
+
+.nft .nft-banner {
+border: 8px solid #BFFFFF;
+background-color: #3A4452;
+border-radius: 25px;
+padding: 25px 10px;
+}
+
+.nft .main-block .about-block {
+padding: 50px 20px;
+}
+
+.nft .main-block .button-block {
+margin: 50px 0px 10px 0px;
+}
+
+.nft .main-block .button-block a {
+margin-right: 10px;
+margin-bottom: 20px;
+}
+
+.nft .nft-block h2 {
+background: none;
+font-weight: 300;
+width: 100%;
+}
+
+.nft .nft-item {
+border: 8px solid #BFFFFF;
+background-color: #3A4452;
+border-radius: 25px;
+color: #FFFFFF;
+margin: 50px 0px;
+}
+
+.nft .nft-item img {
+border-radius: 0px;
+}
+
+.nft .nft-item h3 {
+margin-top: 0px;
+font-weight: 200;
+}
+
+.nft .nft-item p {
+font-size: 1.2em;
+}
+
+.nft .nft-item .content {
+padding: 0px 25px;
+}
+
+.nft .nft-common {
+border-color: #999999;
+}
+
+.nft .nft-uncommon {
+border-color: #9FCE85;
+}
+
+.nft .nft-rare {
+border-color: #87B6D7;
+}
+
+.nft .nft-epic {
+border-color: #A699CA;
+}
+
+.nft .nft-legendary {
+border-color: #D9C074;
+}
+
+.nft .nft-common strong {
+color: #999999;
+}
+
+.nft .nft-uncommon strong {
+color: #9FCE85;
+}
+
+.nft .nft-rare strong {
+color: #87B6D7;
+}
+
+.nft .nft-epic strong {
+color: #A699CA;
+}
+
+.nft .nft-legendary strong {
+color: #D9C074;
+}
+
+.nft .nft-common .btn-primary {
+background-color: #999999;
+border: 1px solid #555555;
+}
+
+.nft .nft-uncommon .btn-primary {
+background-color: #9FCE85;
+border: 1px solid #6C7F36;
+}
+
+.nft .nft-rare .btn-primary {
+background-color: #87B6D7;
+border: 1px solid #4357A3;
+}
+
+.nft .nft-epic .btn-primary {
+background-color: #A699CA;
+border: 1px solid #9D8AC0;
+}
+
+.nft .nft-legendary .btn-primary {
+background-color: #D9C074;
+border: 1px solid #BC9D39;
+}
+
+.nft .nft-common .btn-primary.active,
+.nft .nft-common .btn-primary.focus,
+.nft .nft-common .btn-primary:active,
+.nft .nft-common .btn-primary:focus,
+.nft .nft-common .btn-primary:hover,
+.nft .nft-uncommon .btn-primary.active,
+.nft .nft-uncommon .btn-primary.focus,
+.nft .nft-uncommon .btn-primary:active,
+.nft .nft-uncommon .btn-primary:focus,
+.nft .nft-uncommon .btn-primary:hover,
+.nft .nft-rare .btn-primary.active,
+.nft .nft-rare .btn-primary.focus,
+.nft .nft-rare .btn-primary:active,
+.nft .nft-rare .btn-primary:focus,
+.nft .nft-rare .btn-primary:hover,
+.nft .nft-epic .btn-primary.active,
+.nft .nft-epic .btn-primary.focus,
+.nft .nft-epic .btn-primary:active,
+.nft .nft-epic .btn-primary:focus,
+.nft .nft-epic .btn-primary:hover,
+.nft .nft-legendary .btn-primary.active,
+.nft .nft-legendary .btn-primary.focus,
+.nft .nft-legendary .btn-primary:active,
+.nft .nft-legendary .btn-primary:focus,
+.nft .nft-legendary .btn-primary:hover {
+background-color: #F3AEAE;
+border-color: #F3AEAE;
+color: #FFFFFF;
+}
+
+.nft .nft-mobile-image {
+display: none;
+}
+
+@media(max-width: 767px) {
+.nft .nft-item .content {
+padding: 10px 25px;
+}
+
+.nft .nft-mobile-image {
+display: block;
+padding-top: 10px;
+}
+}

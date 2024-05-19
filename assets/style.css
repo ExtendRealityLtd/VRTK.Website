@@ -34,7 +34,7 @@ font-size: 24px;
 }
 
 h6 {
-font-size: 0.8em;
+font-size: 0.75em;
 }
 
 p {
@@ -110,14 +110,18 @@ z-index: 1030;
 border-color: transparent;
 border: none;
 background-color: #5B5B5B;
-min-height: 78px;
+min-height: 65px;
 border-bottom: 3px solid #5B5B5B;
-height: 78px;
+height: 65px;
 margin: 0px;
 }
 
 .navbar-brand-logo {
 padding-top: 10px;
+}
+
+.navbar-brand-logo img {
+width: 160px;
 }
 
 .force-flex-width {
@@ -126,7 +130,7 @@ width: 50%;
 }
 
 .home-banner {
-margin-top: 75px;
+margin-top: 63px;
 text-align: center;
 padding-top: 30px;
 padding-bottom: 10px;
@@ -167,7 +171,7 @@ overflow: hidden;
 .carousel-item-container {
 position: relative;
 width: 100%;
-padding-top: 35%;
+padding-top: 55%;
 overflow: hidden;
 }
 
@@ -265,7 +269,7 @@ margin-right: 10px;
 }
 
 .icons {
-margin-top: 25px;
+margin-top: 20px;
 }
 
 .icons ul {
@@ -280,8 +284,8 @@ display: inline-block;
 }
 
 .icons li.icon {
-width: 32px;
-height: 32px;
+width: 28px;
+height: 28px;
 border-radius: 90px;
 text-align: center;
 }
@@ -296,9 +300,9 @@ color: #D69A9A;
 
 .icons .social li.icon {
 background-color: #FFFFFF;
-font-size: 18px;
-padding-top: 5px;
-margin-right: 5px;
+font-size: 16px;
+padding-top: 3px;
+margin-right: 2px;
 }
 
 .icons .platform li {
@@ -398,6 +402,10 @@ left: 5%;
 
 .carousel-caption h1{
 font-size: 60px;
+}
+
+.carousel-item-container {
+padding-top: 36%;
 }
 
 .resource {
